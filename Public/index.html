@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tinance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ::-webkit-scrollbar {
+            display: none;
+        }
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            font-size: 48px;
+            color: #fff;
+            margin-left: 20px;
+            margin-top: -100px;
+            top: 0;
+            letter-spacing: 3px;
+            z-index: 1;
+            position: relative;
+            width: 60%;
+            padding-left: 30px;
+        }
+        h2 {
+            font-size: 24px;
+            color: #c0a847;
+            margin-left: 20px;
+            top: 0;
+            letter-spacing: 3px;
+            padding-left: 30px;
+
+        }
+        h3{
+            font-size: 24px;
+            color: #c0a847;
+            margin-left: 20px;
+            margin-top: 50px;
+            top: 0;
+            letter-spacing: 1px;
+            padding-left: 30px;
+            width: 45%;
+            font-weight: bold;
+
+            z-index: 9;
+        }
+        h4 {
+            font-size: 14px;
+            color: #888;
+            margin-left: 20px;
+            margin-top: 30px;
+            top: 0;
+            letter-spacing: 1px;
+            padding-left: 30px;
+            width: 45%;
+            font-weight: normal;
+
+            z-index: 9;
+            
+        }
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            /* background-color: bisque; */
+            position: fixed;
+            top: 0;
+            right: 0;
+            z-index: 2 ;
+            height: 60px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-around;
+            top: 0;
+            right: 0;
+
+            width: 50%;
+            font-size: medium;
+            font-weight: normal;   
+            z-index: 1;
+        }
+        .menu a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #f2f2f2;
+        }
+        .hero{
+            /* position: absolute;
+            left: 0;
+            top: 0; */
+            /* margin-bottom: 40px; */
+            display: flex;
+            /* align vertically center */
+            
+            flex-direction: column;
+            justify-content: center;
+            z-index: 0;
+            height: 100vh;
+            background-position: center top;
+            background-image: url("https://images.unsplash.com/photo-1622630998477-20aa696ecb05?q=80&w=1846&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+        }
+        .heroOverlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+        }
+        .staticNavBg{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 60px;
+            background-color: #000;
+            z-index: -1;
+        }
+            .content {
+                padding: 20px;
+                margin-top: 60px;
+                z-index: -2;
+            }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        <h2>TINANCE</h2>
+        <nav class="menu">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </div>
+    <div class="hero">
+        <div class="heroOverlay"></div>
+        <div class="staticNavBg"></div>
+        <h1>Trade Crypto with Confidence on Tinance</h1>
+        <h4>
+            Discover a secure and user-friendly platform for crypto trading. 
+            Join Tinance today and start maximizing your profits.
+        </h4>
+        <h3>Launching Soon...</h3>
+    </div>
+    <div class="content">
+        <h2 class="coming-soon">Coming Soon</h2>
+        <p>Good things take time. We are making the best.</p>
+
+        <p>Meanwhile, you can follow us on social media.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/tinance.in" target="_blank"><i class="fa fa-facebook" ></i></a>
+            <a href="https://www.instagram.com/tinance.in" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.twitter.com/tinance_in" target="_blank"><i class="fa fa-twitter"></i></a>
+        </div>
+
+        <p>Or you can contact us at <a href="mailto:info@tinance.in"><i class="fa fa-envelope"></i></a></p>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium a nostrum ratione eos placeat dicta fugit, maiores accusantium atque dolores iste, obcaecati pariatur, eius eveniet asperiores dignissimos repellendus deleniti veritatis facilis repudiandae ex ut repellat perspiciatis. Magni, quo officiis voluptates aut veniam expedita velit explicabo praesentium deserunt ut necessitatibus, cupiditate accusamus doloribus ipsa? Inventore quae quos cum, nesciunt sunt illo iusto blanditiis possimus ratione, corporis modi iste omnis quibusdam tempora culpa quia atque adipisci rerum consequuntur est eligendi dolorum voluptatibus! Ducimus deserunt nam quasi debitis minus quaerat quis nihil molestias voluptas odit eius quo aut laborum laudantium vero ab eaque atque, in perspiciatis dolor ad natus, ut dolorum asperiores? Voluptatem quos repudiandae beatae, delectus ipsum nesciunt ducimus autem officiis assumenda! Maiores porro amet debitis nulla vitae, quidem sapiente voluptates assumenda tempore, ipsum rerum, est doloribus earum dolores cum voluptatem vero saepe expedita dolore quo reprehenderit ducimus eaque! Ex totam, autem molestias laudantium sequi, tempora obcaecati libero aliquid consequuntur incidunt nemo sapiente mollitia et iure doloremque earum similique illo alias! Ea minus eaque voluptatibus! Quidem atque quisquam cupiditate temporibus. Beatae enim iure quia ratione aperiam adipisci excepturi illo laborum pariatur neque natus quisquam sequi necessitatibus dignissimos, delectus, ullam rem sunt, distinctio accusantium. Et, quia eveniet iure consequuntur voluptates consectetur ab sit architecto rerum. At suscipit repellat, ipsam praesentium voluptatibus ad velit cupiditate placeat laboriosam quos, labore quod fugiat voluptatem? Asperiores, id architecto. Molestiae commodi quasi, inventore harum fuga, ipsam nesciunt perferendis repellat ipsa voluptatum cumque aliquid illo quaerat fugiat perspiciatis quidem incidunt error placeat quos non! Tempore assumenda, nostrum voluptates dolore suscipit dolores quae rem. Quia, id velit est sequi nobis tempora nesciunt accusamus vitae minus quaerat temporibus, animi quisquam enim molestiae, magnam numquam. Quaerat maiores quae enim iure omnis qui dolorum obcaecati tempore ea cumque voluptate, ut tenetur illo eum quis suscipit labore quibusdam aut veritatis alias optio? Qui, rerum temporibus! Vero laboriosam architecto voluptatum facere dolor, officia quo eum tenetur repudiandae nihil id est explicabo sit placeat amet delectus accusantium odit perferendis mollitia ab officiis atque possimus culpa impedit? Officia corrupti quis facere quos odit maiores, sunt doloribus aspernatur iusto quidem excepturi ullam nihil in explicabo deleniti reiciendis, perspiciatis, porro vitae similique culpa sapiente nulla praesentium accusamus illo. Quam laudantium amet mollitia, aliquam temporibus eligendi nisi expedita cupiditate recusandae distinctio eaque nulla quidem? Nisi optio omnis amet hic in est nostrum doloribus quod, alias dolorem quos dolor possimus esse recusandae saepe cupiditate dolore harum ab quaerat. Ut vero expedita natus quam sed vel laborum quo molestias dolorem facilis, quasi eos! Sed qui, ipsa doloremque perferendis quo alias, excepturi veniam, voluptates hic dolorem laudantium! Fugit tempora officia illum odit aliquam voluptas quae sint culpa sunt nulla reprehenderit, cupiditate ipsum asperiores vel aliquid perspiciatis tenetur? Veritatis laboriosam rem consequatur laborum reprehenderit voluptatem eum officiis quis at omnis necessitatibus quam commodi, magni non doloremque, ipsum unde! Dolor culpa deleniti error odit voluptatibus perferendis corrupti, doloremque, dolorum est ad nulla eos nostrum! Quam alias ducimus eum pariatur consequatur? Doloribus soluta odit autem dolores?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium a nostrum ratione eos placeat dicta fugit, maiores accusantium atque dolores iste, obcaecati pariatur, eius eveniet asperiores dignissimos repellendus deleniti veritatis facilis repudiandae ex ut repellat perspiciatis. Magni, quo officiis voluptates aut veniam expedita velit explicabo praesentium deserunt ut necessitatibus, cupiditate accusamus doloribus ipsa? Inventore quae quos cum, nesciunt sunt illo iusto blanditiis possimus ratione, corporis modi iste omnis quibusdam tempora culpa quia atque adipisci rerum consequuntur est eligendi dolorum voluptatibus! Ducimus deserunt nam quasi debitis minus quaerat quis nihil molestias voluptas odit eius quo aut laborum laudantium vero ab eaque atque, in perspiciatis dolor ad natus, ut dolorum asperiores? Voluptatem quos repudiandae beatae, delectus ipsum nesciunt ducimus autem officiis assumenda! Maiores porro amet debitis nulla vitae, quidem sapiente voluptates assumenda tempore, ipsum rerum, est doloribus earum dolores cum voluptatem vero saepe expedita dolore quo reprehenderit ducimus eaque! Ex totam, autem molestias laudantium sequi, tempora obcaecati libero aliquid consequuntur incidunt nemo sapiente mollitia et iure doloremque earum similique illo alias! Ea minus eaque voluptatibus! Quidem atque quisquam cupiditate temporibus. Beatae enim iure quia ratione aperiam adipisci excepturi illo laborum pariatur neque natus quisquam sequi necessitatibus dignissimos, delectus, ullam rem sunt, distinctio accusantium. Et, quia eveniet iure consequuntur voluptates consectetur ab sit architecto rerum. At suscipit repellat, ipsam praesentium voluptatibus ad velit cupiditate placeat laboriosam quos, labore quod fugiat voluptatem? Asperiores, id architecto. Molestiae commodi quasi, inventore harum fuga, ipsam nesciunt perferendis repellat ipsa voluptatum cumque aliquid illo quaerat fugiat perspiciatis quidem incidunt error placeat quos non! Tempore assumenda, nostrum voluptates dolore suscipit dolores quae rem. Quia, id velit est sequi nobis tempora nesciunt accusamus vitae minus quaerat temporibus, animi quisquam enim molestiae, magnam numquam. Quaerat maiores quae enim iure omnis qui dolorum obcaecati tempore ea cumque voluptate, ut tenetur illo eum quis suscipit labore quibusdam aut veritatis alias optio? Qui, rerum temporibus! Vero laboriosam architecto voluptatum facere dolor, officia quo eum tenetur repudiandae nihil id est explicabo sit placeat amet delectus accusantium odit perferendis mollitia ab officiis atque possimus culpa impedit? Officia corrupti quis facere quos odit maiores, sunt doloribus aspernatur iusto quidem excepturi ullam nihil in explicabo deleniti reiciendis, perspiciatis, porro vitae similique culpa sapiente nulla praesentium accusamus illo. Quam laudantium amet mollitia, aliquam temporibus eligendi nisi expedita cupiditate recusandae distinctio eaque nulla quidem? Nisi optio omnis amet hic in est nostrum doloribus quod, alias dolorem quos dolor possimus esse recusandae saepe cupiditate dolore harum ab quaerat. Ut vero expedita natus quam sed vel laborum quo molestias dolorem facilis, quasi eos! Sed qui, ipsa doloremque perferendis quo alias, excepturi veniam, voluptates hic dolorem laudantium! Fugit tempora officia illum odit aliquam voluptas quae sint culpa sunt nulla reprehenderit, cupiditate ipsum asperiores vel aliquid perspiciatis tenetur? Veritatis laboriosam rem consequatur laborum reprehenderit voluptatem eum officiis quis at omnis necessitatibus quam commodi, magni non doloremque, ipsum unde! Dolor culpa deleniti error odit voluptatibus perferendis corrupti, doloremque, dolorum est ad nulla eos nostrum! Quam alias ducimus eum pariatur consequatur? Doloribus soluta odit autem dolores?</p>
+
+    </div>
+</body>
+<script>
+    // onscroll event
+    window.onscroll = () => {
+        const heroOverlay = document.querySelector('.heroOverlay');
+            heroOverlay.style.backgroundColor = 'rgba(0, 0, 0, '+Math.max(0.5, window.scrollY/548)+')';
+    }
+</script>
+</html>
