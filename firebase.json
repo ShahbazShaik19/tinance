@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "tinance",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
